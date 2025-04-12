@@ -1,0 +1,171 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #003366; /* Dark blue */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem; /* Added spacing below the heading */
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows navigation to wrap on smaller screens */
+    gap: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #00509e;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+nav ul li a:hover {
+    background-color: #0077cc;
+}
+
+/* Main Content Styles */
+main {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto; /* Centers the main content */
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #003366;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #003366; /* Added a subtle underline */
+    padding-bottom: 0.5rem; /* Added spacing below the underline */
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    display: block; /* Ensures proper spacing */
+    margin-left: auto;
+    margin-right: auto; /* Centers the image */
+}
+
+/* Image Row Layout */
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.image-row img {
+    flex: 1;
+    min-width: 250px;
+}
+
+/* Media Styles (Audio, Video) */
+audio, video {
+    margin-bottom: 1rem;
+    max-width: 100%;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* Content Specific Styles */
+#content p {
+    margin-bottom: 1rem;
+}
+
+/* Table Styles (Added for better table appearance) */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Collapses borders for cleaner look */
+    margin-bottom: 1rem;
+}
+
+th, td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Light gray bottom border */
+}
+
+thead th {
+    background-color: #00509e;
+    color: white;
+    font-weight: bold;
+}
+
+/* Works Cited Section Styles (Example -  adjust as needed) */
+.works-cited {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 1rem;
+    border-top: 1px solid #ddd; /* Light gray top border */
+    margin-top: 2rem;
+}
+
+.works-cited h2 {
+    font-size: 1.25rem;
+    color: #003366;
+    margin-bottom: 0.75rem;
+}
+
+.works-cited ul {
+    list-style-type: none; /* Removes bullet points */
+    padding-left: 0;
+}
+
+.works-cited li {
+    margin-bottom: 0.5rem;
+}
